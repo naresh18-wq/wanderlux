@@ -6,7 +6,10 @@ function calculateCost() {
   let dailyRate = 150;
   let totalCost = travellers * days * dailyRate * style;
 
-  document.getElementById("result").innerText =
-    "Estimated trip cost: $" + totalCost;
+document.getElementById("result").innerText =
+  "Estimated cost for " + travellers +
+  " travellers for " + days +
+  " days: $" + totalCost +
+  " (" + document.getElementById("style").selectedOptions[0].text + " package)";
 }
 ``
