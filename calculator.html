@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trip Cost Calculator</title>
+
+  <!-- Correct CSS link -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Trip Cost Calculator</h1>
+
+<label>Travellers:</label>
+<input type="number" id="travellers" value="1">
+
+<label>Days:</label>
+<input type="number" id="days" value="1">
+
+<label>Travel Style:</label>
+<select id="style">
+  <option value="1">Budget</option>
+  <option value="1.5">Standard</option>
+  <option value="2">Luxury</option>
+</select>
+
+<br><br>
+
+<button onclick="calculateCost()">Calculate</button>
+
+<p id="result"></p>
+
+<!-- Correct JavaScript link -->
+<script src="js/calculator.js"></script>
+
+</body>
+</html>
